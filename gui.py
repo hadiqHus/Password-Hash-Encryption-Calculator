@@ -54,7 +54,6 @@ class PasswordHashGUI(tk.Tk):
 
         # Add sidebar buttons
         sidebar_buttons = [
-            ("Select Theme", self.select_theme),
             ("Save Hash", self.save_hash_to_file),
             ("Compare Hash", self.compare_hash),
             ("Generate Random Password", self.generate_random_password),
